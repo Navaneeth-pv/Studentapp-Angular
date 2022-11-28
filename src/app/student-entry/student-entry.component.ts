@@ -31,10 +31,13 @@ export class StudentEntryComponent {
     }
 
     console.log(data)
-
-    
+    if (this.userName=="admin" && this.password=="123456") {
+      alert("valid credentials")
+    } else {
+      alert("invalid credentials")
+      
+    }
   }
-
 
 
 }
